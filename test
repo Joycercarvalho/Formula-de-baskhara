@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main (){
+  int a, b, c, raiz, delta, result;
+  scanf("%d %d %d",&a, &b, &c);
+  delta= pow(b,2)-4*a*c;
+  raiz= sqrt(delta)/2*a;
+  result= -b+ raiz;
+  printf("%d",result);
+  return 0;
+}
